@@ -1,0 +1,9 @@
+.section {
+  height: 100vh;
+}
+.sectionMain {
+  background: url("./images/image_2_bg.png") center no-repeat no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=App.module.css.map */

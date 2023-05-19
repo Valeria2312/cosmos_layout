@@ -1,6 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './styles/reset.scss'
+
+import './fonts/MazzardH-Bold.otf'
+import './fonts/MazzardH-Medium.woff2'
+import './fonts/MazzardH-Regular.woff2'
+import './fonts/Move-X-Bold.otf'
+import './fonts/NeueMachina-Medium.woff2'
+import './fonts/NeueMachina-Bold.woff2'
+import './fonts/NeueMachina-Regular.woff2'
+import './fonts/TTOctosquares-Medium.otf'
+import './fonts/TTOctosquares-Regular.otf'
+
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

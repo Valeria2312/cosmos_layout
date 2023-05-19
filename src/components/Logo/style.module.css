@@ -1,0 +1,19 @@
+.logo a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  text-indent: -1234em;
+  background: url("../../images/logo.png") center no-repeat;
+  width: 10.2rem;
+  height: 1.2rem;
+  transition: opacity 0.3s;
+  margin: 3.3rem 0 0 3.3rem;
+}
+.logo a:hover, .logo a:visited {
+  color: white;
+}
+.logo a:hover {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.module.css.map */
