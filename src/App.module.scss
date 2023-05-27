@@ -1,8 +1,27 @@
 .section {
   height: 100vh;
-
+  padding: 2.1rem 2.8rem;
   &Main {
     background: url("./images/image_2_bg.png") center no-repeat no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 2.2rem;
+  position: absolute;
+  top: 2.8rem;
+  left: 2.8rem;
+  right: 2.8rem;
+  z-index: 9;
+}
+.buttonList {
+  display: flex;
+  justify-content: center;
+  gap: 1.4rem;
 }
