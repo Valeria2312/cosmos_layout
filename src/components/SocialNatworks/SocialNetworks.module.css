@@ -1,3 +1,34 @@
-
+.socialNetworks {
+  display: flex;
+  gap: 3vw;
+  transition: all 0.3s;
+}
+.socialNetworksLink {
+  color: white;
+  text-indent: -1234em;
+  display: inline-block;
+  width: 1.8rem;
+  height: 1.8rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+}
+.socialNetworksLink:hover, .socialNetworksLink:visited {
+  color: white;
+}
+.socialNetworksLink:hover {
+  opacity: 0.8;
+}
+.socialNetworksDiscord {
+  background-image: url("../../images/icons/discord.png");
+  background-size: 90% auto;
+}
+.socialNetworksTwitter {
+  background-image: url("../../images/icons/twitter.png");
+  background-size: 90% auto;
+}
+.socialNetworksMedium {
+  background-image: url("../../images/icons/medium.png");
+}
 
 /*# sourceMappingURL=SocialNetworks.module.css.map */
